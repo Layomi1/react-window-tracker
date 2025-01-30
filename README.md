@@ -1,4 +1,5 @@
 # React + Vite
+a simple window tracker app which use in monitoring browser window size. This is implemented with React useEffect hook 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
