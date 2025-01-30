@@ -9,6 +9,7 @@ const WindowTracker = () => {
     }
     window.addEventListener("resize", watchWindowWidth);
     return () => {
+      console.log("claening op...");
       window.removeEventListener("resize", watchWindowWidth);
     };
   }, []);
